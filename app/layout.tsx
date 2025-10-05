@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maybedoubler",
+  title: "Doubledown",
   description: "win a double or lose half your stake ",
 };
 
