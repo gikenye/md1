@@ -1,10 +1,10 @@
-# MaybeDoubler 🎰
+# Doubledown 🎰
 
 A decentralized gambling game where players can double their stake or lose half - built with Next.js frontend and Solidity smart contracts.
 
 ## 🎮 Game Concept
 
-MaybeDoubler is a simple yet thrilling 50/50 gambling game:
+Doubledown is a simple yet thrilling 50/50 gambling game:
 - **Win**: Double your stake (2x payout)
 - **Lose**: Get half your stake back (0.5x payout)
 - Powered by Chainlink VRF for provably fair randomness
@@ -19,7 +19,7 @@ mbdoubler/
 │   └── maybe-doubler-game.tsx  # Main game interface
 ├── contracts/              # Smart contract development
 │   ├── contracts/          # Solidity contracts
-│   │   └── Maybedoubler.sol   # Main game contract
+│   │   └── Doubledown.sol   # Main game contract
 │   ├── scripts/            # Deployment scripts
 │   └── hardhat.config.js   # Hardhat configuration
 └── lib/                    # Utility functions
