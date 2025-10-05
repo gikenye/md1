@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/card"
 type GameState = "idle" | "spinning" | "result"
 type Result = "win" | "lose" | null
 
-export default function MaybeDoublerGame() {
+export default function DoubledownGame() {
   const [stake, setStake] = useState<string>("10")
   const [balance, setBalance] = useState<number>(100)
   const [gameState, setGameState] = useState<GameState>("idle")
@@ -100,7 +100,7 @@ export default function MaybeDoublerGame() {
         <div className="text-center mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 text-balance">
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              maybedoubler
+              Doubledown
             </span>
           </h1>
           <p className="text-lg text-muted-foreground">Double your stake or lose half. Take the risk!</p>
