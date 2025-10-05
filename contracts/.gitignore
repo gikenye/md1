@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Hardhat build artifacts
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Compiled contracts
+*.json
+
+# dotenv environment variables
+.env
+.env.*
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Yarn & npm logs
+yarn-error.log
+npm-debug.log
+
+# Hardhat config local overrides
+hardhat.config.local.js
+
+# Test output
+test-*.log
+
+# Misc
+*.tsbuildinfo
